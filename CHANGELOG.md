@@ -8,6 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.1] - 2022-08-12
 ### Added
-- Creating the project structure .
+- Creating the project structure.
 - Add config Swagger
 - Add CHANGELOG.md.

@@ -1,0 +1,40 @@
+info:
+  app:
+    name: Mini Autorizador VR
+    description: Projeto Criado para validação da etapa tecnica
+
+####### SPRING #######
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+####### LOGS #######
+logging:
+  file:
+    max-size: 10MB
+    max-history: 2
+  pattern:
+    dateformat: dd/MM/yyyy HH:mm:ss.SSS
+
+authorizer:
+  security:
+    jwt:
+      secret: _@POE&L3tF?65O9j4z&L5!nU2B!eT65_
+      expiration: 604800
+
+# Actuator Endpoints Settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  health:
+    mail:
+      enabled: false

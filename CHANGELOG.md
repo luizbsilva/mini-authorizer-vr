@@ -31,3 +31,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Change Credit Card password
 - Check credit Card Balance
 - Search Transaction Data
+- 
+## [0.0.4] - 2022-08-15
+
+### Added
+
+- Adding docker compose for application database and admin user quote
+- Correction READEM.md

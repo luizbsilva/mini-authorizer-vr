@@ -1,7 +1,7 @@
 package br.com.vr.authorizer.domain.dto;
 
-import br.com.vr.authorizer.domain.User;
-import br.com.vr.authorizer.domain.enums.ProfileEnum;
+import br.com.vr.authorizer.infra.adapter.entity.colections.User;
+import br.com.vr.authorizer.infra.adapter.enums.ProfileEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

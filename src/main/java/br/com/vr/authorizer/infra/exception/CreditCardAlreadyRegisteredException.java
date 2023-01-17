@@ -1,0 +1,8 @@
+package br.com.vr.authorizer.infra.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value = HttpStatus.UNPROCESSABLE_ENTITY)
+public class CreditCardAlreadyRegisteredException extends RuntimeException {
+}
